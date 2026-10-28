@@ -4,13 +4,13 @@
 
 A small native macOS keyboard-lock utility with a custom unlock chord and an automatic unlock timer.
 
-**Preview software.** Chord logic, timer boundaries, and 100 state-machine relock cycles pass automated tests. Two interactive timer-unlock cycles were checked. Reliable physical keyboard blocking across apps has not yet been verified. An automated input test reached another app while the UI reported locked. Do not rely on this as a security boundary.
+**Testing status.** Chord logic, timer boundaries, and 100 state-machine relock cycles pass automated tests. Two interactive timer-unlock cycles were checked. Reliable physical keyboard blocking across apps has not yet been verified. An automated input test reached another app while the UI reported locked. Do not rely on this as a security boundary.
 
 ## Download
 
-Get the DMG from [Releases](https://github.com/jungbtc/KeyLatch/releases). The published preview targets **Apple Silicon, macOS 13 or later**. It does not support Intel Macs. Building from source targets the architecture of the build machine; Intel builds have not been tested.
+Get the DMG from [Releases](https://github.com/jungbtc/KeyLatch/releases). The v1.0.0 release targets **Apple Silicon, macOS 13 or later**. It does not support Intel Macs. Building from source targets the architecture of the build machine; Intel builds have not been tested.
 
-The app and `KeyLatch-Notarized-AppleSilicon.dmg` are **Developer ID signed and notarized**. Gatekeeper accepted the final DMG on the build Mac. See [Apple's signing and notarization explanation](https://support.apple.com/guide/security/sec3ad8e6e53/web).
+The app and `KeyLatch-1.0.0-AppleSilicon.dmg` are **Developer ID signed and notarized**. Gatekeeper accepted the final DMG on the build Mac. See [Apple's signing and notarization explanation](https://support.apple.com/guide/security/sec3ad8e6e53/web).
 
 ## Use
 
@@ -56,11 +56,11 @@ KeyLatch does not record keystrokes, send analytics, make network requests, or r
 
 KeyLatch는 사용자 지정 키 조합과 자동 해제 타이머를 제공하는 macOS 키보드 잠금 유틸리티입니다.
 
-**현재 프리뷰 버전입니다.** 키 조합 처리와 타이머 로직 테스트는 통과했지만, 여러 앱에서 실제 키보드 입력을 안정적으로 차단하는지는 아직 검증하지 못했습니다. 자동 입력 테스트에서는 잠금 표시 중에도 다른 앱에 입력이 전달되었습니다. 보안 잠금 도구로 사용하지 마세요.
+**테스트 상태:** 키 조합 처리와 타이머 로직 테스트는 통과했지만, 여러 앱에서 실제 키보드 입력을 안정적으로 차단하는지는 아직 검증하지 못했습니다. 자동 입력 테스트에서는 잠금 표시 중에도 다른 앱에 입력이 전달되었습니다. 보안 잠금 도구로 사용하지 마세요.
 
 배포 DMG는 **Apple Silicon Mac, macOS 13 이상**을 지원합니다. Intel Mac용 배포 파일은 제공하지 않습니다. 앱 화면은 영어입니다.
 
-앱과 `KeyLatch-Notarized-AppleSilicon.dmg`는 **Developer ID로 서명되었고 Apple 공증을 완료했습니다.**
+앱과 `KeyLatch-1.0.0-AppleSilicon.dmg`는 **Developer ID로 서명되었고 Apple 공증을 완료했습니다.**
 
 1. DMG에서 KeyLatch를 응용 프로그램 폴더로 옮깁니다.
 2. 시스템 설정 > 개인정보 보호 및 보안 > 손쉬운 사용에서 접근을 허용합니다.
