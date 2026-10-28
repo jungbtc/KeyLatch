@@ -10,7 +10,7 @@ A small native macOS keyboard-lock utility with a custom unlock chord and an aut
 
 Get the DMG from [Releases](https://github.com/jungbtc/KeyLatch/releases). The published preview targets **Apple Silicon, macOS 13 or later**. It does not support Intel Macs. Building from source targets the architecture of the build machine; Intel builds have not been tested.
 
-The release app and DMG are **Developer ID signed but not notarized**. Signing identifies the distributor and protects integrity. It does not remove all security prompts. Gatekeeper may block normal opening. Open sourcing the app does not change Gatekeeper requirements. See [Apple's signing and notarization explanation](https://support.apple.com/guide/security/sec3ad8e6e53/web).
+The app and `KeyLatch-Notarized-AppleSilicon.dmg` are **Developer ID signed and notarized**. Gatekeeper accepted the final DMG on the build Mac. See [Apple's signing and notarization explanation](https://support.apple.com/guide/security/sec3ad8e6e53/web).
 
 ## Use
 
@@ -60,7 +60,7 @@ KeyLatch는 사용자 지정 키 조합과 자동 해제 타이머를 제공하�
 
 배포 DMG는 **Apple Silicon Mac, macOS 13 이상**을 지원합니다. Intel Mac용 배포 파일은 제공하지 않습니다. 앱 화면은 영어입니다.
 
-앱과 DMG는 **Developer ID로 서명했지만 Apple 공증은 완료하지 않았습니다.** 서명만으로 모든 보안 경고가 사라지는 것은 아니며, Gatekeeper가 실행을 차단할 수 있습니다.
+앱과 `KeyLatch-Notarized-AppleSilicon.dmg`는 **Developer ID로 서명되었고 Apple 공증을 완료했습니다.**
 
 1. DMG에서 KeyLatch를 응용 프로그램 폴더로 옮깁니다.
 2. 시스템 설정 > 개인정보 보호 및 보안 > 손쉬운 사용에서 접근을 허용합니다.
